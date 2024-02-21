@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'),
+      url('Poppins-Bold.woff2') format('woff2'),
+      url('Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik'), 
+      url('Rubik-Regular.woff2') format('woff2'),
+      url('Rubik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik'),  
+      url('Rubik-Medium.woff2') format('woff2'),
+      url('Rubik-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: local('DM Sans'), 
+      url('DMSans18pt-Bold.woff2') format('woff2'),
+      url('DMSans18pt-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: local('DM Sans'), 
+      url('DMSans18pt-Medium.woff2') format('woff2'),
+      url('DMSans18pt-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: local('DM Sans'), 
+      url('DMSans24pt-Regular.woff2') format('woff2'),
+      url('DMSans24pt-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
