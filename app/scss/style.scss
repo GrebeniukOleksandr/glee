@@ -42,7 +42,7 @@
     width: 51px;
     height: 51px;
     border-radius: 50%;
-    background-color: $button;
+    background-color: $btn;
   }
   &__link:first-child {
     margin-right: 20px;
@@ -91,7 +91,7 @@
 .footer-top {
   display: flex;
   padding: 77px 0;
-  border-bottom: 1px solid $button;
+  border-bottom: 1px solid $btn;
   &__contact {
     width: 200px;
     margin-right: 108px;
@@ -158,7 +158,7 @@
     }
   }
   &__form-btn {
-    margin-left: -4px;
+    margin-left: -6px;
     padding: 14px 18px;
     border: none;
     font-size: 14px;
@@ -333,6 +333,9 @@
 .products {
   padding: 75px 0 85px;
   text-align: center;
+  .active-btn {
+    color: $button-active;
+  }
   &__title {
     font-size: 36px;
     color: #191919;
@@ -389,7 +392,7 @@
     border-radius: 50%;
     box-shadow: 0px 6px 25px rgba(37, 37, 37, 0.05);
     &:hover {
-      background-color: $button;
+      background-color: $btn;
       path {
         fill: #fff;
       }
@@ -417,8 +420,6 @@
   }
   &__box {
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 100px;
     padding-left: 140px;
     background-color: rgba(252, 215, 182, 0.4);
@@ -427,11 +428,44 @@
   &__box-images {
     position: relative;
     width: 233px;
-    height: 305px;
+    height: 300px;
+    margin-right: 15px;
   }
   &__img {
     position: absolute;
     bottom: 0;
+  }
+  &__info{
+    color: $title;
+    max-width: 326px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 91px;
+  }
+  &__title{
+    font-size: 26px;
+    line-height: 32px;
+    @extend %dm-700;
+  }
+  &__link{
+    font-size: 15px;
+    color: $base;
+    padding: 24px 86px 24px 20px;
+    @extend %rubik-500;
+    border: 1px solid $base;
+    border-radius: 5px;
+    position: relative;
+    &::after{
+      content: '';
+      position: absolute;
+      width: 22px;
+      height: 9px;
+      background-image: url(../images/icons/arrow-right-lamp.svg);
+      right: 20px;
+      top: 29px;
+    }
   }
 }
 .video {

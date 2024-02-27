@@ -8,12 +8,11 @@
 // color: #1f2044;
 $base: #436372;
 $title: #243f4d;
-$button: #1a1a1a;
+$button-active: #1a1a1a;
 $btn: #a3bbc8;
 $footer: #7b7b7b;
 $bg: #fcd7b6;
 $bg-opacity: rgba(252, 215, 182, 0.2);
-$button: #a3bbc8;
 %rubik-500 {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -23,19 +22,19 @@ $button: #a3bbc8;
   font-weight: 400;
 }
 %dm-400 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DMSans-Regular', sans-serif;
   font-weight: 400;
 }
 %dm-500 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DMSans-Medium', sans-serif;
   font-weight: 500;
 }
 %dm-700 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DMSans-Bold', sans-serif;
   font-weight: 700;
 }
 %poppins-700 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins-Bold', sans-serif;
   font-weight: 700;
 }
 %btn {

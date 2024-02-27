@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Poppins-Bold';
   src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
       url('../fonts/Poppins-Bold.woff') format('woff');
   font-weight: bold;
@@ -8,27 +8,27 @@
 }
 
 @font-face {
-  font-family: 'DM Sans';
-  src: url('DMSans-Medium.woff2') format('woff2'),
-      url('DMSans-Medium.woff') format('woff');
+  font-family: 'DMSans-Medium';
+  src: url('../fonts/DMSans-Medium.woff2') format('woff2'),
+      url('../fonts/DMSans-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'DM Sans';
-  src: url('DMSans-Regular.woff2') format('woff2'),
-      url('DMSans-Regular.woff') format('woff');
+  font-family: 'DMSans-Regular';
+  src: url('../fonts/DMSans-Regular.woff2') format('woff2'),
+      url('../fonts/DMSans-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'DM Sans';
-  src: url('DMSans-Bold.woff2') format('woff2'),
-      url('DMSans-Bold.woff') format('woff');
+  font-family: 'DMSans-Bold';
+  src: url('../fonts/DMSans-Bold.woff2') format('woff2'),
+      url('../fonts/DMSans-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
